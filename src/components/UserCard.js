@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useOutlet, useOutletContext } from "react-router-dom";
 
 function UserCard({user}) {
     return (
